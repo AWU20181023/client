@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: client
+eureka:
+  client:
+    service-url:
+      defaultZone: http://172.16.227.128:8761/eureka/
+#  instance:
+#    hostname: client  http://client:8080/actuator/info
